@@ -8,8 +8,8 @@
 <body>
     <div class="container">
         <h1>{{ $presentation }}</h1>
-        <h2>Ciao Mikele Ianni !!</h2>
-        
+        <h2>{{ $my_class }}</h2>
+        <p><b>Coordinatore: </b>{{ $list_staff_class }}</p>
     </div>
 </body>
 </html>

@@ -15,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $presentation = 'Hello World';
+    $my_class = 'Saluti dalla 117!!';
+    $list_staff_class = config('list_staff_class');
+
     //passo la variabile tramite il metodo compact()
-    return view('homepage', compact('presentation'));
+    return view('homepage', compact('presentation', 'my_class', 'list_staff_class'));
 });
