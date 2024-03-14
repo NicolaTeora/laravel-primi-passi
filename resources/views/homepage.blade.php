@@ -9,7 +9,13 @@
     <div class="container">
         <h1>{{ $presentation }}</h1>
         <h2>{{ $my_class }}</h2>
-        <p><b>Coordinatore: </b>{{ $list_staff_class }}</p>
+        <p><b>Coordinatore: </b>{{ $staff_class }}</p>
+
+        <ul>
+            @foreach ($classroom as $student)
+                <li>{{ $student }}</li>
+            @endforeach
+        </ul>
     </div>
 </body>
 </html>
