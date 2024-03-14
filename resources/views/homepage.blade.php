@@ -7,8 +7,9 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hello World</h1>
+        <h1>{{ $presentation }}</h1>
         <h2>Ciao Mikele Ianni !!</h2>
+        
     </div>
 </body>
 </html>

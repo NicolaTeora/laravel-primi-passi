@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+    $presentation = 'Hello World';
+    //passo la variabile tramite il metodo compact()
+    return view('homepage', compact('presentation'));
 });
