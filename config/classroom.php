@@ -5,5 +5,6 @@ return $students = [
     'Michele',
     'Jonathan',
     'Vincenzo',
-    'Serena'
+    'Serena',
+    '...and more'
 ];
